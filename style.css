@@ -1,0 +1,309 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: "Montserrat", serif;
+   box-sizing: border-box;
+}
+
+header{
+   background-image: url("images/HeaderImage4.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+}
+
+.header{
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+
+p.header{
+   font-size: 2em;
+   margin-top: 40px;
+}
+
+h1.header{
+   font-size: 2em;
+   font-weight: 750;
+   text-transform: uppercase;
+}
+
+header span{
+   font-size: 40px;
+   font-weight: 600;
+}
+
+#first-section{
+   background-color: #1B1833;
+   color: white;
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#first-section p{
+   margin: 0;
+   font-size: 30px;
+   text-transform: uppercase;
+   font-weight: 650;
+}
+
+#first-section span{
+   font-size: 45px;
+}
+
+#second-section{
+   background-color: #F29F58;
+   height: 1100px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+#second-section h3, #second-section p{
+   margin: 0;
+   padding: 0;
+}
+
+#second-section p{
+   padding: 6px 20px 20px 30px;
+   font-size: 13px;
+   font-weight: 500;
+   color: #5e5e5c;
+   margin: 0;
+   line-height: 1.35;
+}
+
+#second-section h3{
+   font-weight: 650;
+   margin: 0;
+   padding: 15px 20px 5px 30px;
+}
+
+.section-images{
+   width: 100%;
+   border-radius: 2% 2% 0 0;
+}
+
+#game-dev{
+   background-color: white;
+   width: 350px;
+   height: 510px;
+   border-radius: 2%;
+}
+
+#web-dev{
+   background-color: white;
+   width: 350px;
+   height: 510px;
+   border-radius: 2%;
+}
+
+#third-section{
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.info h2{
+   margin: 0 25px;
+   padding: 35px 0;
+   color: white;
+}
+
+.info p{
+   margin: 0 25px;
+   padding: 20px 0;
+   color: white;
+   font-size: 14px;
+   line-height: 30px;
+}
+
+#about{
+   background-color: #1B1833;
+   height: 50%;
+}
+
+#contact{
+   background-color: #441752;
+   height: 50%;
+}
+
+footer{
+   background-color: #1B1833;
+   height: 100px;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+footer h3{
+   margin: 0;
+   padding: 0;
+   font-size: 15px;
+   font-weight: 500;
+}
+
+@media (min-width: 576px)
+{
+   p.header{
+      font-size: 2.2em;
+      margin-top: 40px;
+   }
+   
+   h1.header{
+      font-size: 2.2em;
+      font-weight: 750;
+      text-transform: uppercase;
+   }
+   
+   #first-section p{
+      margin: 0;
+      font-size: 35px;
+      text-transform: uppercase;
+      font-weight: 650;
+   }
+   
+   #first-section span{
+      font-size: 50px;
+   }
+
+   #second-section h3{
+      font-size: 1.2em;
+      font-weight: 650;
+      margin: 0;
+      padding: 15px 20px 5px 30px;
+   }
+
+   .info h2{
+      font-size: 1.55em;
+      margin: 0 25px;
+      padding: 35px 0;
+      color: white;
+   }
+   
+   .info p{
+      margin: 0 25px;
+      padding: 20px 0;
+      color: white;
+      font-size: 14.5px;
+      line-height: 30px;
+   }
+
+   footer h3{
+      margin: 0;
+      padding: 0;
+      font-size: 17px;
+      font-weight: 500;
+   }
+}
+
+@media (min-width: 1400px)
+{
+   header{
+      width: 100%;
+      height: 1000px;
+   }
+
+   p.header{
+      font-size: 3em;
+      margin-top: 40px;
+      text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+   
+   h1.header{
+      font-size: 3em;
+      font-weight: 750;
+      text-transform: uppercase;
+   }
+
+   header span{
+      font-size: 60px;
+      font-weight: 600;
+   }
+
+   #first-section{
+      height: 300px;
+   }
+
+   #first-section p{
+      margin: 0;
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: 650;
+   }
+
+   #first-section span{
+      font-size: 75px;
+   }
+
+   #second-section{
+      background-color: #F29F58;
+      height: 750px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 150px;
+   }
+
+   #third-section{
+      height: 380px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+   }
+
+   #about{
+      background-color: #AB4459;
+      height: 100%;
+   }
+   
+   #contact{
+      background-color: #441752;
+      height: 100%;
+   }
+
+   .info h2{
+      font-size: 1.9em;
+      margin: 0 40px;
+      padding: 50px 0;
+      color: white;
+   }
+   
+   .info p{
+      margin: 0 40px;
+      padding: 20px 0;
+      color: white;
+      font-size: 16px;
+      line-height: 30px;
+   }
+
+   footer{
+      height: 150px;
+   }
+
+   footer h3{
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      font-weight: 500;
+      text-shadow: -1px 0px black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+}
