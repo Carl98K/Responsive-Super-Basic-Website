@@ -159,6 +159,35 @@ footer h3{
    font-weight: 500;
 }
 
+@media (min-width: 300px)
+{
+   p.header{
+      font-size: 1.5em;
+      margin-top: 40px;
+   }
+
+   h1.header{
+      font-size: 1.5em;
+      font-weight: 750;
+      text-transform: uppercase;
+   }
+
+   header span{
+      font-size: 30px;
+   }
+
+   #first-section p{
+      margin: 0;
+      font-size: 25px;
+      text-transform: uppercase;
+      font-weight: 650;
+   }
+   
+   #first-section span{
+      font-size: 35px;
+   }
+}
+
 @media (min-width: 576px)
 {
    p.header{
